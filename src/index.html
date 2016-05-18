@@ -1,0 +1,15 @@
+<!doctype html>
+<html ng-app="app" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular App</title>
+  <base href="/">
+</head>
+<body>
+  <div ng-controller="MainCtrl as $ctrl">
+    <span ng-bind="$ctrl.hello"></span>
+    <button ng-click="$ctrl.greet()">Greet</button>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+</html>
